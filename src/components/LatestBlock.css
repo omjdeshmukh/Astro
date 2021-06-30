@@ -1,0 +1,18 @@
+.latest__block {
+  display: flex;
+  justify-content: center;
+  line-height: 0;
+  flex-direction: column;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.posts {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}

@@ -3,10 +3,11 @@ import "./Feedback.css";
 import LinearScaleIcon from "@material-ui/icons/LinearScale";
 import Slider from "react-slick";
 import DatePicker from "react-datepicker";
-
+import "../../node_modules/react-datepicker/dist/react-datepicker.css";
 
 const Feedback = () => {
   const [startDate, setStartDate] = useState(new Date());
+
   var settings = {
     dots: false,
     infinite: true,
@@ -25,8 +26,96 @@ const Feedback = () => {
       <div className="form">
         <h3>get free consultation</h3>
         <LinearScaleIcon />
-        <div class="wpb_column vc_column_container vc_col-sm-6">
-         
+        <div>
+          <form className="form_">
+            <div className="information">
+              <div className="form-row">
+                <div className="">
+                  <input
+                    type="name"
+                    className="form-control"
+                    id="name"
+                    placeholder="Name"
+                  />
+                </div>
+                <div className="">
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="email"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+              <div className="form-row">
+                <div className="">
+                  <input
+                    type="number"
+                    className="form-control"
+                    id="number"
+                    placeholder="Mob. Number"
+                  />
+                </div>
+                <div className="">
+                  <select
+                    id="inputState"
+                    className="form-control "
+                    style={{ width: 180, height: 35 }}
+                  >
+                    <option selected>Male</option>
+                    <option selected>Female</option>
+                    <option selected>Trans</option>
+                  </select>
+                </div>
+              </div>
+              <div className="form-row">
+                <div>
+                  <DatePicker
+                    selected={startDate}
+                    onChange={(date) => setStartDate(date)}
+                    className="form-control"
+                  />
+                </div>
+                <div className="">
+                  <input
+                    type="address"
+                    className="form-control"
+                    id="address"
+                    placeholder="Birth Place"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="form-group">
+              <input
+                type="number"
+                class="form-control"
+                id="inputAddress"
+                placeholder="Birth Hour"
+              />
+              <input
+                type="number"
+                class="form-control"
+                id="inputAddress"
+                placeholder="Birth Minute"
+              />
+              <input
+                type="number"
+                class="form-control"
+                id="inputAddress"
+                placeholder="Birth Second"
+              />
+            </div>
+
+            <div>
+              <textarea placeholder="Your Concern" className="input_area" />
+            </div>
+
+            <button type="submit" className="btn btn-primary">
+              Submit
+            </button>
+          </form>
         </div>
       </div>
     </div>

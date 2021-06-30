@@ -42,3 +42,23 @@
 .form_ {
   gap: 20px;
 }
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-control {
+  height: 30px;
+  margin: 10px;
+}
+
+.input_area {
+  height: 100px;
+  width: 565px;
+  margin: 10px;
+}
+
+.btn {
+  margin: 20px;
+}

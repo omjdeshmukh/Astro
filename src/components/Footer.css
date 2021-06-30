@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(104, 104, 104);
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list > a {
+  text-decoration: none;
+  color: rgb(208, 208, 208);
+}
+
+.social__list > a {
+  text-decoration: none;
+  color: rgb(208, 208, 208);
+}
+
+.social__list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.copy_right {
+  line-height: .5;
+}

@@ -6,9 +6,9 @@ import Slider from "react-slick";
 const Horoscopes = () => {
   var settings = {
     dots: false,
-    infinite: true,
-    speed: 400,
-    slidesToShow: 6,
+    // infinite: true,
+    speed: 500,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
   };

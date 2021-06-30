@@ -1,0 +1,10 @@
+.videos {
+  display: flex;
+  margin: 30px;
+  flex-direction: column;
+}
+
+.play_list {
+  display: flex;
+  justify-content: space-evenly;
+}
