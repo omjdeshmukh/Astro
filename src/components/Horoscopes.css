@@ -1,0 +1,28 @@
+.service_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 0;
+}
+
+.service_box > h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.container {
+  padding: 40px;
+  /* background: #419be0; */
+}
+
+.slick-slide img {
+  margin: auto;
+  border-radius: 30px;
+}
+
+.image_link > img {
+  width: 100%;
+  height: 400px;
+}

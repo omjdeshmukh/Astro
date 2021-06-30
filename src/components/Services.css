@@ -1,0 +1,46 @@
+.service_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 0;
+}
+
+.service_box > h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.sidebar_menu > a {
+  text-decoration: none;
+}
+
+.menu {
+  background-color: white;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  border: 2px solid rgb(121, 121, 121);
+  margin-left: 6%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.menu > a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menus_items {
+  display: flex;
+  /* flex-direction: row; */
+  width: 100vw;
+}
+
+.items {
+  position: relative;
+  margin-left: 20px;
+  width: 80vw;
+}

@@ -1,0 +1,44 @@
+.feedback__container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  flex-direction: row;
+  line-height: 0;
+}
+
+.feedback__container > div > h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.feedback__container > div > {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide__container {
+  width: 400px;
+}
+
+.slick-slide img {
+  margin: auto;
+  border-radius: 30px;
+}
+
+.d-block > div > img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.slider_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.form_ {
+  gap: 20px;
+}

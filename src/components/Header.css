@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  /* position: sticky; */
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.header__link__menu {
+  display: flex;
+  gap: 45px;
+}
+
+.header__link__menu > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(223, 129, 7);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.header__logo > a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header__logo > a > h3 {
+  font-weight: 700;
+}
+
+.side__menu {
+  display: flex;
+  gap: 15px;
+}
